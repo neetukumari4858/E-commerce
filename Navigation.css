@@ -1,0 +1,89 @@
+/* css for Navigation bar */
+
+.container{
+    height: 39rem;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+body{
+    overflow-y: hidden;
+}
+nav{
+    height: 4.5rem;
+    width: 100%;
+    display: flex;
+    box-shadow: 1px 1px 1px 2px var(--gainsboro-color-);
+}
+.nav-section{
+    height: 3rem;
+    width: 50%;
+    margin-top: 1rem;
+}
+.royal-lebel{
+    position: relative;
+    top: -1rem;
+    left: 2rem;
+    font-size: 1.5rem;
+    color: var(--blue-color);
+    font-size: 3rem;
+}
+.nav-home-shop-link{
+    height: 2rem;
+    width: 12rem;
+    margin-left: 7rem;
+    margin-top: -3rem;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.5rem;
+}
+.nav-link{
+    text-decoration: none;
+    color:var(--black-color);
+}
+.nav-icons{
+    height: 2.9rem;
+    width: 15rem;
+    margin-top: -3rem;
+    margin-left: 21rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+.icon-content{
+    display: flex;
+    align-items: end;
+    font-size: 1rem;
+}
+.search-bar{
+    height: 2.3rem;
+    width: 24rem;
+    border-radius: 0.2rem;
+    margin-top: 0.2rem;
+    border: none;
+    background-color: var(--gainsboro-color-);
+}
+.fas{
+    color:var(--blue-color);
+    margin-left: 1rem;
+}
+.fa{
+    color: var(--blue-color);
+}
+.btn{
+    height: 2.4rem;
+    width: 2rem;
+    margin-top: 0.2rem;
+    border: none;
+    
+}
+.outer-search-bar-div{
+    height: 2.6rem;
+    width: 24rem;
+    display: flex;
+    box-shadow: 1px 1px 1px 1px var(--gainsboro-color-);
+}
+.zoom{
+    position: relative;
+    right: 0.4rem;
+    color: var(--gainsboro-color-);
+}

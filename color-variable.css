@@ -1,0 +1,13 @@
+/* root color */
+:root{
+    --gainsboro-color-:rgb(241, 240, 240);
+    --footer-gainsboro-clolor:rgb(207, 203, 203);
+    --blue-color:blue;
+    --black-color:black;
+    --gray-color:gray;
+    --red-color:red;
+    --sky-blue-color:rgb(163, 214, 235);
+    --webkit-gray-color:rgb(184, 181, 181);
+    --side-bar-gray-color:rgb(90, 89, 89);
+    --light-blue-color:rgb(60, 60, 248)
+}

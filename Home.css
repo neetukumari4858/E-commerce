@@ -1,0 +1,94 @@
+@import url("color-variable.css");
+@import url("Navigation.css");
+
+/* css for home page */
+.discount-img{
+    height: 30rem;
+    width:80rem;
+    margin-top: 1rem;
+    margin-left: 84rem;
+}
+.content-container{
+    height: 35rem;
+    width:79.8rem;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.outer-img-div{
+    height: 15rem;
+    width: 18rem;
+    border: 2px solid var(--gray-color);
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+.epic-brands{
+    margin-top: 34rem;
+    position: relative;
+    right: 81.5rem;
+    height:53rem;
+}
+
+.inner-img-div{
+    height: 12rem;
+    width: 16rem;
+    margin-top: 0.9rem;
+    margin-left: 0.9rem;  
+}
+.shoe-section{
+    height: 19rem;
+    width:70em;
+    display: flex;
+    gap: 3rem;
+    margin-left: 9.5rem;
+}
+h1{
+    text-align: center;
+}
+h4{
+    margin-top: -0.7rem;
+    text-align: center;
+    color: var(--black-color);
+}
+.anchor-link{
+    text-decoration: none;
+}
+h2{
+    text-align: center;
+}
+.heading-three-red-shoe{
+    margin-top: -1.5rem;
+}
+.red-shoe-heading{
+    margin-top: -1.3rem;
+}
+.black-shoe-heading{
+    margin-top: 1rem;
+}
+/* css for footer */
+footer{
+    height: 11rem;
+    width: 85rem;
+    position: relative;
+    top: -1rem;
+    display: flex;
+    justify-content: center;
+    box-shadow: 1px 1px 2px 3px var( --footer-gainsboro-clolor);
+}
+.social-media{
+    display: flex;
+    gap: 2rem;
+    margin-left: 4rem;
+}
+.footer-content{
+    width: 18rem;
+    height: 8rem;
+}
+h3{
+    margin-top: -0.7rem;
+    text-align: center;
+}
+
+
