@@ -1,0 +1,119 @@
+@import url("/color-variable.css");
+@import url("/Navigation.css");
+
+.outer-product-side-bar{
+    height: 34.5rem;
+    width:79.8rem;
+}
+.side-bar{
+    height: 34.5rem;
+    width: 15rem;
+    overflow-y: scroll;
+    box-shadow: 1px 1px 1px 1px var(--gainsboro-color-);
+}
+.side-bar::-webkit-scrollbar{
+    background-color: white;
+    width: 0.4rem;
+}
+.side-bar::-webkit-scrollbar-thumb{
+    height: 0.5rem;
+    border-radius: 0.5rem;
+    background-color: var(--webkit-gray-color);
+}
+.filter{
+    text-align: center;
+    height: 2rem;
+
+    box-shadow: 1px 1px 1px 1px var(--gainsboro-color-);
+}
+.filter-heading{
+    margin-top: 1rem;
+}
+ul{
+    list-style: none;
+}
+.filter-items-heading{
+    margin-top: 0.5rem;
+}
+.clear-btn{
+    width: 6rem;
+    height: 2.2rem;
+    border: 1px solid var(--black-color);
+    border-radius: 0.4rem;
+}
+.sidebarItem{
+    color: var(--side-bar-gray-color);
+}
+.product-container{
+    height: 34.2rem;
+    width: 63.7rem;
+    margin-top: -34.5rem;
+    margin-left: 16rem;
+    overflow-y: scroll;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+/* card section  */
+.section-first{
+    height: 25rem;
+    width: 60rem;
+    display: flex;
+    margin-top: 2rem;
+}
+.section-second{
+    height: 25rem;
+    width: 60rem;
+    display: flex;
+    margin-top: 2rem;
+}
+.section-third{
+    height: 25rem;
+    width: 60rem;
+    display: flex;
+    margin-top: 2rem;
+}
+.card-container{
+    height: 22.3rem;
+    width: 18rem;
+    margin-left: 1rem;
+    box-shadow: 1px 1px 1px 2px var( --gainsboro-color-);
+    margin-top: 2rem;
+}
+.card-image{
+    width: 18rem;
+}
+.heading-four{
+    position: relative;
+    top: -1rem;
+}
+.btn-div{
+    text-align: center;
+}
+.card-content{
+    height: 7.6rem;
+    width: 18rem;
+    background-color: var(--sky-blue-color);
+}
+.card-btn{
+    padding: 0.8rem 1.5rem;
+    background-color: var(--blue-color);
+    color: white;
+    border: none;
+    margin-top: 1rem;
+    border-radius: 0.5rem;
+    font-weight: bold;
+}
+.card-btn:hover{
+    background-color:var(--red-color);
+}
+.card-text{
+    text-align: center;
+    height: 3.3rem;
+    width: 18rem;
+}
+s{
+    color: var(--side-bar-gray-color);
+}
+
