@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="product-list.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/272d1ec438.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <!-- Navigation bar -->
+        <nav>
+            <div class="nav-section">
+                <label class="royal-lebel">Royal</label>
+                <ul class="nav-home-shop-link">
+                    <a class="nav-link" href="/index.html">Home</a>
+                    <a  class="nav-link" href="product-list.html">Shop</a>
+                </ul>
+            </div>
+            <div class="nav-section">
+                <div class="outer-search-bar-div">
+                    <button class="btn"><img class="zoom" src="/Image/Zoom.png" height="38" width="32"></button>
+                    <input type="text" class="search-bar" placeholder="Search..">
+                </div>
+                <ul class="nav-icons">
+                    <i class='fas fa-user-alt' style='font-size:20px'>
+                        <a  class="nav-link icon-content" href="/Authentication/Login.html">Login</a>
+                    </i>
+                    <i class="fa fa-heart" style='font-size:20px'>
+                        <a class="nav-link icon-content" href="/Cart-wishlist/wishlist.html">Wishlist</a>
+                    </i>
+                    <i class="fa fa-shopping-cart" style='font-size:20px'>
+                        <a class="nav-link icon-content" href="/Cart-wishlist/cart.html">Cart</a>
+                    </i>
+                </ul>
+            </div>
+        </nav>
+        <!-- Side bar Filter -->
+        <div class="outer-product-side-bar">
+            <div class="side-bar">
+                <div class="filter"><h3 class="filter-heading">FILTERS</h3></div>
+                <ul>
+                    <h3 class="filter-items-heading">Rating</h3>
+                    <li class="sidebarItem">
+                        <input type="range" min="0" max="100" value="50">
+                    </li>
+                    
+                    <h3 class="filter-items-heading">Sort</h3>
+                    <li class="sidebarItem">
+                        <input type="radio" class="filter-item" value="price low to high" name="sort-btn">Price Low to high 
+                    </li>
+                    <li class="sidebarItem">
+                        <input type="radio" value="price low to high" name="sort-btn">Price High to Low
+                    </li>
+
+                    <h3 class="filter-items-heading">Categories</h3>
+                    <li class="sidebarItem">
+                        <input type="checkbox" value="Men" name="categories-btn">Men
+                    </li>
+                    <li class="sidebarItem">
+                        <input type="checkbox" value="Woman" name="categories-btn">Woman
+                    </li>
+
+                    <h3 class="filter-items-heading">Brand</h3>
+                    <li class="sidebarItem">
+                        <input type="checkbox" value="Reebok" name="Brand-btn">Reebok
+                    </li>
+                    <li class="sidebarItem">
+                        <input type="checkbox" value="Reebok" name="Brand-btn">Reebok
+                    </li>
+                    <li class="sidebarItem">
+                        <input type="checkbox" value="Lotto" name="Brand-btn">Lotto
+                    </li>
+                    <li class="sidebarItem">
+                        <input type="checkbox" value="Fila" name="Brand-btn">Fila
+                    </li>
+                    <li class="sidebarItem">
+                        <input type="checkbox" value="Hummel" name="Brand-btn">Hummel
+                    </li>
+                    <li class="sidebarItem">
+                        <input type="checkbox" value="Asics" name="Brand-btn">Asics
+                    </li><hr><br>
+                    <button class="clear-btn">Clear Filter</button>
+                    <br><br>
+                </ul>
+            </div>
+            <!-- product(section first)-->
+            <div class="product-container">
+                <div class="section-first">
+                    <div class="card-container">
+                        <div class="card-image">
+                            <img src="/Image/shoe3.jpeg">
+                        </div>
+                        <div class="card-content">
+                            <div class="card-text">
+                                <h3>Reebok</h3>
+                                <h4 class="heading-four">₹ 350/- <s>₹ 500</s></h4>
+                            </div>
+                            <div class="btn-div">
+                                <button class="card-btn">WISHLIST</button>
+                                <button class="card-btn">BUY NOW</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-container">
+                        <div class="card-image">
+                            <img src="/Image/shoe3.jpeg">
+                        </div>
+                        <div class="card-content">
+                            <div class="card-text">
+                                <h3>Reebok</h3>
+                                <h4 class="heading-four">₹ 350/- <s>₹ 500</s></h4>
+                            </div>
+                            <div class="btn-div">
+                                <button class="card-btn">WISHLIST</button>
+                                <button class="card-btn">BUY NOW</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-container">
+                        <div class="card-image">
+                            <img src="/Image/shoe3.jpeg">
+                        </div>
+                        <div class="card-content">
+                            <div class="card-text">
+                                <h3>Reebok</h3>
+                                <h4 class="heading-four">₹ 350/- <s>₹ 500</s></h4>
+                            </div>
+                            <div class="btn-div">
+                                <button class="card-btn">WISHLIST</button>
+                                <button class="card-btn">BUY NOW</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- product(section second)-->
+                <div class="section-second">
+                    <div class="card-container">
+                        <div class="card-image">
+                            <img src="/Image/shoe3.jpeg">
+                        </div>
+                        <div class="card-content">
+                            <div class="card-text">
+                                <h3>Reebok</h3>
+                                <h4 class="heading-four">₹ 350/- <s>₹ 500</s></h4>
+                            </div>
+                            <div class="btn-div">
+                                <button class="card-btn">WISHLIST</button>
+                                <button class="card-btn">BUY NOW</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-container">
+                        <div class="card-image">
+                            <img src="/Image/shoe3.jpeg">
+                        </div>
+                        <div class="card-content">
+                            <div class="card-text">
+                                <h3>Reebok</h3>
+                                <h4 class="heading-four">₹ 350/- <s>₹ 500</s></h4>
+                            </div>
+                            <div class="btn-div">
+                                <button class="card-btn">WISHLIST</button>
+                                <button class="card-btn">BUY NOW</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-container">
+                        <div class="card-image">
+                            <img src="/Image/shoe3.jpeg">
+                        </div>
+                        <div class="card-content">
+                            <div class="card-text">
+                                <h3>Reebok</h3>
+                                <h4 class="heading-four">₹ 350/- <s>₹ 500</s></h4>
+                            </div>
+                            <div class="btn-div">
+                                <button class="card-btn">WISHLIST</button>
+                                <button class="card-btn">BUY NOW</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- product(section third)-->
+                <div class="section-third">
+                    <div class="card-container">
+                        <div class="card-image">
+                            <img src="/Image/shoe3.jpeg">
+                        </div>
+                        <div class="card-content">
+                            <div class="card-text">
+                                <h3>Reebok</h3>
+                                <h4 class="heading-four">₹ 350/- <s>₹ 500</s></h4>
+                            </div>
+                            <div class="btn-div">
+                                <button class="card-btn">WISHLIST</button>
+                                <button class="card-btn">BUY NOW</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-container">
+                        <div class="card-image">
+                            <img src="/Image/shoe3.jpeg">
+                        </div>
+                        <div class="card-content">
+                            <div class="card-text">
+                                <h3>Reebok</h3>
+                                <h4 class="heading-four">₹ 350/- <s>₹ 500</s></h4>
+                            </div>
+                            <div class="btn-div">
+                                <button class="card-btn">WISHLIST</button>
+                                <button class="card-btn">BUY NOW</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-container">
+                        <div class="card-image">
+                            <img src="/Image/shoe3.jpeg">
+                        </div>
+                        <div class="card-content">
+                            <div class="card-text">
+                                <h3>Reebok</h3>
+                                <h4 class="heading-four">₹ 350/- <s>₹ 500</s></h4>
+                            </div>
+                            <div class="btn-div">
+                                <button class="card-btn">WISHLIST</button>
+                                <button class="card-btn">BUY NOW</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
