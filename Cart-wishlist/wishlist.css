@@ -1,0 +1,82 @@
+@import url("/color-variable.css");
+@import url("/Navigation.css");
+
+/* css for wishlist */
+.outer-product-side-bar{
+    height: 34.5rem;
+    width:79.8rem;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+.product-container{
+    height: 34rem;
+    width: 80rem;
+    overflow-y: scroll;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+}
+h2{
+    position: relative;
+    left: 26rem;
+}
+/* card section  */
+.section-first{
+    height: 25rem;
+    width: 60rem;
+    display: flex;
+    margin-top: 5rem;
+    margin-left: -5rem;
+}
+.section-second{
+    height: 25rem;
+    width: 60rem;
+    display: flex;
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+
+.card-container{
+    height: 22.3rem;
+    width: 18rem;
+    margin-left: 1rem;
+    box-shadow: 1px 1px 1px 2px var(--gainsboro-color-);
+    margin-top: 1rem;
+}
+.card-image{
+    width: 18rem; 
+}
+.heading-four{
+    position: relative;
+    top: -1rem;
+}
+.btn-div{
+    text-align: center;
+}
+.card-content{
+    height: 7.6rem;
+    width: 18.2rem;
+    background-color: var(--sky-blue-color);
+}
+.card-btn{
+    padding: 0.8rem 1.5rem;
+    background-color: var(--blue-color);
+    color: white;
+    border: none;
+    margin-top: 1rem;
+    border-radius: 0.5rem;
+    font-weight: bold;
+}
+.card-btn:hover{
+    background-color:var(--red-color);
+}
+.card-text{
+    text-align: center;
+    height: 3.3rem;
+    width: 18rem;
+}
+s{
+    color: var(--side-bar-gray-color);
+}
+
