@@ -116,4 +116,9 @@ ul{
 s{
     color: var(--side-bar-gray-color);
 }
+.Zero{
+    position: relative;
+    top: -0.2rem;
+    color: var(--black-color)
+}
 
