@@ -90,5 +90,10 @@ h3{
     margin-top: -0.7rem;
     text-align: center;
 }
+.footer-icon{
+    font-size: 24px;
+    color: var(--blue-color);
+}
+
 
 

@@ -62,12 +62,14 @@ nav{
     border: none;
     background-color: var(--gainsboro-color-);
 }
-.fas{
+.login-icon{
     color:var(--blue-color);
     margin-left: 1rem;
+    font-size:20px;
 }
-.fa{
+.cart-wishlist-icon{
     color: var(--blue-color);
+    font-size:20px;
 }
 .btn{
     height: 2.4rem;
@@ -86,4 +88,7 @@ nav{
     position: relative;
     right: 0.4rem;
     color: var(--gainsboro-color-);
+    height:38px; 
+    width:32px;
 }
+
